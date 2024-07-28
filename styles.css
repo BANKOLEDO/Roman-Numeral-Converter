@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+#entire-page {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(39, 218, 158, 0.281);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.org {
+    margin: 2rem 0;
+    color: rgb(167, 86, 20);
+}
+
+.rnc {
+    color: rgb(167, 86, 20);
+}
+
+#converter-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-container, #output-container{
+    margin: 0.5rem 0;
+    width: 20rem;
+    padding: 2rem;
+    background-color: rgb(6, 78, 78);
+    border: 2px solid black;
+}
+
+.label {
+    font-size: 2rem;
+    color: rgb(167, 86, 20);
+    font-weight: 900;
+}
+
+#number {
+    background-color: rgba(39, 218, 158, 0.281);
+    margin: 1rem 0;
+    width: 13rem;
+    height: 4rem;
+    padding: 0 0 0 0.5rem;
+    border: 2px solid black;
+    color: rgb(167, 86, 20);
+    font-size: 3rem;
+}
+
+#convert-btn {
+    width: 13rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(167, 86, 20);
+}
+
+#output {
+    color: rgb(167, 86, 20);
+}

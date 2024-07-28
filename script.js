@@ -22,8 +22,8 @@ document.getElementById('convert-btn').addEventListener('click', function(event)
         return;
     } else {
         output.innerText = convertToRoman(number);
-    outputContainer.style.backgroundColor = "rgb(6, 78, 78)"
-    output.style.color = "rgb(167, 86, 20)"
+        outputContainer.style.backgroundColor = "rgb(6, 78, 78)"
+        output.style.color = "rgb(167, 86, 20)"
     } 
 });
 
